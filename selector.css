@@ -3,12 +3,27 @@
   padding: 5rem;
   background-color: #142850;
   color: white;
+font-family: 'Noto Serif', serif;
+
 
 }
 
-body{
+.cuerpo{
+
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.tabla{
   font-family: 'Balsamiq Sans';
 
+
+}
+
+
+.titulo{
+font-family: 'Quicksand', sans-serif
 }
 
 
