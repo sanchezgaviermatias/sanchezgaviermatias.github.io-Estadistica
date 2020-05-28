@@ -11,6 +11,7 @@ font-family: 'Noto Serif', serif;
 .cuerpo{
 
 font-family: 'Montserrat', sans-serif;
+
 }
 
 
@@ -41,7 +42,7 @@ color: #c70039;
 }
 
 .tema {
-  font-size: 12px;
+  font-size: 13.2px;
 }
 
 .pema {
@@ -60,7 +61,7 @@ color: #c70039;
 }
 
 .descripcion {
-  font-size: 13.3px;
+  font-size: 14.3px;
   text-align: center;
 }
 
