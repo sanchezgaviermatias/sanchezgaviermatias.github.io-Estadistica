@@ -14,6 +14,9 @@ font-family: 'Montserrat', sans-serif;
 
 }
 
+body{
+  font-size: 14.5px;
+}
 
 
 .tabla{
@@ -24,7 +27,9 @@ font-family: 'Montserrat', sans-serif;
 
 
 .titulo{
-font-family: 'Quicksand', sans-serif
+font-family: 'Quicksand', sans-serif;
+margin-top: 1.8rem;
+margin-bottom:1.4rem;
 }
 
 
