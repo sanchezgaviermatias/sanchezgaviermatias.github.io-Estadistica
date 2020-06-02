@@ -9,6 +9,8 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="selector.css">
+  <script src="https://kit.fontawesome.com/eae111c768.js" crossorigin="anonymous"></script>
+
   <title>Estadistica, Programación</title>
 </head>
 
@@ -18,7 +20,7 @@
 
 <body>
 
-  <nav style="font-size: 1.2rem; font-family: 'Quicksand', sans-serif;" class="navbar navbar-expand-lg navbar-light bg-light ">
+  <nav style="font-size: 1.2rem; font-family: 'Quicksand', sans-serif;" class="navbar navbar-expand-lg navbar-light bg-light  sticky-top ">
     <a class="navbar-brand" href="Index.html">Estadística I </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -26,8 +28,12 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item ">
-          <a class="nav-link" href="Programacion.html"> Programación<span class="sr-only">(current)</span></a>
+          <a class="nav-link nav-link active " href="Programacion.html"> Programación<span class="sr-only">(current)</span></a>
+
+
         </li>
+
+  <li>  <a class="nav-link " href="Equipo.html"> Equipo<span class="sr-only">(current)</span></a></li>
       </ul>
     </div>
   </nav>
@@ -38,11 +44,36 @@
 
 
 
-  <div class="container-fluid  bienvenida ">
+  <div class="container-fluid bienvenidaPro">
 
-    <h1> Sección de Programación</h1>
+    <div class="row cuerpo">
+       <div class="col-sm">
 
-    <h4> The future now! </h4>
+         <h1> Sección de Programación</h1>
+
+         <h4> ¡Vamos a dominar a la víbora!  🐍</h4>
+         <br>
+         <p style="  padding-left:10%;
+           padding-right: 10%;">  En esta sección optativa del curso vamos a aprender <b>Python</b>, uno de los
+           lenguajes  <a href="https://www.tiobe.com/tiobe-index/">más utilizados </a> a nivel mundial. Vamos a aplicar los temas vistos en clase y mucho más.<br></p>
+
+
+                    <button type="button" class="btn btn-light btn-lg download-button">  <i class="fab fa-github"></i> <a href="https://github.com/sanchezgaviermatias/Curso_Python">GitHub</a>  </button>
+                    <button type="button" class="btn btn-light btn-lg download-button"><a href="https://www.anaconda.com/products/individual">Anaconda</a>  </button>
+
+
+    </div>
+       <div class="col-sm">
+
+
+         <div style="width:50%;height:350px;padding-bottom:10%;position:relative;"><iframe src="https://giphy.com/embed/1C8bHHJturSx2" width="90%" height="70%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/13HgwGsXF0aiGY"></a></p>
+
+       </div>
+
+     </div>
+
+
+
 
 
 
@@ -51,10 +82,10 @@
 
   <div class="container-lg  principal  ">
 
-    <h2 class="titulo-principal">  Organización</h2>
 
 
-
+<br>
+<br>
 
 
   <!--Inicia  Tabla -->
@@ -66,9 +97,9 @@
       <table class="table table-bordered  ">
 
 
-        <thead>
-          <tr class="table-info table-warning">
-            <th class="header " scope="col" style="width:15%;">Tema</th>
+        <thead style="  font-size: 18px;">
+          <tr class="table-info table-danger">
+            <th  class="header " scope="col" style="width:15%;">Tema</th>
             <th class="header" scope="col"style="width:20%;">Vídeos</th>
               <th class="header" scope="col" style="width:10%;">Notebooks</th>
             <th class="header" scope="col" style="width:20%;">Lectura Recomendada</th>
@@ -84,20 +115,22 @@
 
           <tr>
             <!-- 1 col Estadística Descrpitiva -->
-            <td  class="pema">  Terminal </td>
+            <td  class="pema">  Introducción Python </td>
 
             <!-- 2  col Estadística Descrpitiva -->
-            <td class="material" >  <a href="#">[Introducción Python]</a><br>
-              [<a href="#">Funciones </a>]<br>
-              [<a href="#">Clases</a>  ]
+            <td class="material-prog" >  <a href="https://www.youtube.com/watch?v=lOkPA44EaAs&t=334s">[Introducción Python]</a><br>
+              <a href="https://www.youtube.com/watch?v=Fo5-m8MtCrw&t=54s"> [Variables] </a><br>
+              <a href="https://www.youtube.com/watch?v=WM5I7H3dXq8">[Estructuras de Datos]</a><br>
+                  <a href="https://www.youtube.com/watch?v=aYjWLZogSdA&t=206s">[Control Flow]</a><br>
+                  <a href="https://www.youtube.com/watch?v=7vO5tSON-KA&t=545s"> [Funciones]</a>
              </td>
 
-      <td class="descripcion">  <a href="#">[1]</a> </td>
+      <td class="descripcion">  <a href="https://mybinder.org/v2/gh/sanchezgaviermatias/Curso_Python/450783082b3b7986c765d4d62e46cc1b24ba0064">[1]</a>  </td>
             <!-- 3 col Estadística Descrpitiva -->
-            <td class="descripcion">  <a href="#"> <b>[ ISL ]</b> </a>  <br>  Cap 3, 4, 5       </td>
+            <td class="descripcion">       </td>
 
             <!-- 4 col Estadística Descrpitiva -->
-            <td class="descripcion"> <b>Trabajo n°0 </b> <br> <a href="#">  [pdf]</a> Límite 2/05. <br> </td>
+            <td class="descripcion"> </td>
 
           </tr>
 
@@ -107,100 +140,38 @@
 
           <tr>
             <!-- 1 col Estadística Descrpitiva -->
-            <td  class="pema"> GitHub </td>
+            <td  class="pema"> Scipy - Probaiblidad <br>
+            - Variables Aleatorias </td>
 
             <!-- 2  col Estadística Descrpitiva -->
-            <td class="material" >  <a href="#">[Introducción Python]</a><br>
-              [<a href="#">Funciones </a>]<br>
-              [<a href="#">Clases</a>  ]
+            <td class="material-prog" >
+            Proximamente
              </td>
 
-      <td class="descripcion">  <a href="#">[1]</a> </td>
+      <td class="descripcion"> Proximamente  </td>
 
             <!-- 3 col Estadística Descrpitiva -->
-            <td class="descripcion">  <a href="#"> <b>[ ISL ]</b> </a>  <br>  Cap 3, 4, 5       </td>
+            <td class="descripcion"> Proximamente   </td>
 
             <!-- 4 col Estadística Descrpitiva -->
-            <td class="descripcion"> <b>Trabajo n°0 </b> <br> <a href="#">  [pdf]</a> Límite 2/05. <br> </td>
+            <td class="descripcion"> Proximamente</td>
 
           </tr>
 
 
           <tr>
             <!-- 1 col Estadística Descrpitiva -->
-            <td  class="pema"> Introducción a python </td>
+            <td  class="pema"> Numpy & Pandas </td>
 
             <!-- 2  col Estadística Descrpitiva -->
-            <td class="material" >  <a href="#">[Introducción Python]</a><br>
-              [<a href="#">Funciones </a>]<br>
-              [<a href="#">Clases</a>  ]
+            <td class="material-prog" > Proximamente
              </td>
-        <td class="descripcion">  <a href="#">[1]</a> </td>
+        <td class="descripcion">Proximamente</td>
             <!-- 3 col Estadística Descrpitiva -->
-            <td class="descripcion">  <a href="#"> <b>[ ISL ]</b> </a>  <br>  Cap 3, 4, 5       </td>
-
+            <td class="descripcion">
+Proximamente </td>
             <!-- 4 col Estadística Descrpitiva -->
-            <td class="descripcion"> <b>Trabajo n°0 </b> <br> <a href="#">  [pdf]</a> Límite 2/05. <br> </td>
-
-          </tr>
-
-
-
-          <tr>
-            <!-- 1 col Estadística Descrpitiva -->
-            <td  class="pema"> POO </td>
-
-            <!-- 2  col Estadística Descrpitiva -->
-            <td class="material" >  <a href="#">[Introducción Python]</a><br>
-              [<a href="#">Funciones </a>]<br>
-              [<a href="#">Clases</a>  ]
-             </td>
-          <td class="descripcion">  <a href="#">[1]</a> </td>
-            <!-- 3 col Estadística Descrpitiva -->
-            <td class="descripcion">  <a href="#"> <b>[ ISL ]</b> </a>  <br>  Cap 3, 4, 5       </td>
-
-            <!-- 4 col Estadística Descrpitiva -->
-            <td class="descripcion"> <b>Trabajo n°0 </b> <br> <a href="#">  [pdf]</a> Límite 2/05. <br> </td>
-
-          </tr>
-
-
-
-
-
-          <tr>
-            <!-- 1 col Estadística Descrpitiva -->
-            <td  class="pema"> Probablidad  </td>
-
-            <!-- 2  col Estadística Descrpitiva -->
-            <td class="material" >  <a href="#">[Introducción Python]</a><br>
-              [<a href="#">Funciones </a>]<br>
-              [<a href="#">Clases</a>  ]
-             </td>
-      <td class="descripcion">  <a href="#">[1]</a> </td>
-            <!-- 3 col Estadística Descrpitiva -->
-            <td class="descripcion">  <a href="#"> <b>[ ISL ]</b> </a>  <br>  Cap 3, 4, 5       </td>
-
-            <!-- 4 col Estadística Descrpitiva -->
-            <td class="descripcion"> <b>Trabajo n°0 </b> <br> <a href="#">  [pdf]</a> Límite 2/05. <br> </td>
-
-          </tr>
-
-          <tr>
-            <!-- 1 col Estadística Descrpitiva -->
-            <td  class="pema"> Variables Aleatorias </td>
-
-            <!-- 2  col Estadística Descrpitiva -->
-            <td class="material" >  <a href="#">[Introducción Python]</a><br>
-              [<a href="#">Funciones </a>]<br>
-              [<a href="#">Clases</a>  ]
-             </td>
-      <td class="descripcion">  <a href="#">[1]</a> </td>
-            <!-- 3 col Estadística Descrpitiva -->
-            <td class="descripcion">  <a href="#"> <b>[ ISL ]</b> </a>  <br>  Cap 3, 4, 5       </td>
-
-            <!-- 4 col Estadística Descrpitiva -->
-            <td class="descripcion"> <b>Trabajo n°0 </b> <br> <a href="#">  [pdf]</a> Límite 2/05. <br> </td>
+            <td class="descripcion">Proximamente   </td>
 
           </tr>
 
@@ -208,76 +179,20 @@
 
           <tr>
             <!-- 1 col Estadística Descrpitiva -->
-            <td  class="pema"> Pandas </td>
+            <td  class="pema"> Introducción <audio src="">
+
+            </audio> Machine Learning</td>
 
             <!-- 2  col Estadística Descrpitiva -->
-            <td class="material" >  <a href="#">[Introducción Python]</a><br>
-              [<a href="#">Funciones </a>]<br>
-              [<a href="#">Clases</a>  ]
+            <td class="material-prog" >
+            Proximamente
              </td>
-      <td class="descripcion">  <a href="#">[1]</a> </td>
+          <td class="descripcion"> Proximamente   </td>
             <!-- 3 col Estadística Descrpitiva -->
-            <td class="descripcion">  <a href="#"> <b>[ ISL ]</b> </a>  <br>  Cap 3, 4, 5       </td>
+            <td class="descripcion">    Proximamente   </td>
 
             <!-- 4 col Estadística Descrpitiva -->
-            <td class="descripcion"> <b>Trabajo n°0 </b> <br> <a href="#">  [pdf]</a> Límite 2/05. <br> </td>
-
-          </tr>
-
-      <tr>
-            <!-- 1 col Estadística Descrpitiva -->
-            <td  class="pema"> Visualización </td>
-
-            <!-- 2  col Estadística Descrpitiva -->
-            <td class="material" >  <a href="#">[Introducción Python]</a><br>
-              [<a href="#">Funciones </a>]<br>
-              [<a href="#">Clases</a>  ]
-             </td>
-      <td class="descripcion">  <a href="#">[1]</a> </td>
-            <!-- 3 col Estadística Descrpitiva -->
-            <td class="descripcion">  <a href="#"> <b>[ ISL ]</b> </a>  <br>  Cap 3, 4, 5       </td>
-
-            <!-- 4 col Estadística Descrpitiva -->
-            <td class="descripcion"> <b>Trabajo n°0 </b> <br> <a href="#">  [pdf]</a> Límite 2/05. <br> </td>
-
-          </tr>
-
-
-          <tr>
-            <!-- 1 col Estadística Descrpitiva -->
-            <td  class="pema"> IC y Test de Hipótesis </td>
-
-            <!-- 2  col Estadística Descrpitiva -->
-            <td class="material" >  <a href="#">[Introducción Python]</a><br>
-              [<a href="#">Funciones </a>]<br>
-              [<a href="#">Clases</a>  ]
-             </td>
-      <td class="descripcion">  <a href="#">[1]</a> </td>
-            <!-- 3 col Estadística Descrpitiva -->
-            <td class="descripcion">  <a href="#"> <b>[ ISL ]</b> </a>  <br>  Cap 3, 4, 5       </td>
-
-            <!-- 4 col Estadística Descrpitiva -->
-            <td class="descripcion"> <b>Trabajo n°0 </b> <br> <a href="#">  [pdf]</a> Límite 2/05. <br> </td>
-
-          </tr>
-
-
-
-          <tr>
-            <!-- 1 col Estadística Descrpitiva -->
-            <td  class="pema"> Machine Learning </td>
-
-            <!-- 2  col Estadística Descrpitiva -->
-            <td class="material" >  <a href="#">[Introducción Python]</a><br>
-              [<a href="#">Funciones </a>]<br>
-              [<a href="#">Clases</a>  ]
-             </td>
-      <td class="descripcion">  <a href="#">[1]</a> </td>
-            <!-- 3 col Estadística Descrpitiva -->
-            <td class="descripcion">  <a href="#"> <b>[ ISL ]</b> </a>  <br>  Cap 3, 4, 5       </td>
-
-            <!-- 4 col Estadística Descrpitiva -->
-            <td class="descripcion"> <b>Trabajo n°0 </b> <br> <a href="#">  [pdf]</a> Límite 2/05. <br> </td>
+            <td class="descripcion">Proximamente  </td>
 
           </tr>
 
@@ -302,18 +217,19 @@
 
 
 
+
+
+
+
+
     <br>
     <br>
 
-
-    <hr>
-    <div class="container  introduccion">
-      Página creada por <a href="#">Matias sanchez Gavier.</a>
-    </div>
+    <div style="text-align:center;"class="container-fluid footer ">
 
 
-
-
+  Creado con ❤️, por <a href="https://matias-online.netlify.app/"> <u>Matias sanchez Gavier</u></a>.<br> <br>
+</div>
 
 
 </body>
