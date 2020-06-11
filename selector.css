@@ -16,10 +16,17 @@ font-family: 'Noto Serif', serif;}
 }
 
 
+#header{
+font-size: 50px;
+}
 
 
+@media(max-width:550px) {
+  #header{
+  font-size: 40px;
+  }
 
-
+}
 
 
 
@@ -162,7 +169,7 @@ font-size: 18px;
 
 .tp {
   text-align: center;
-  font-size: 12.36px;
+  font-size: 15.36px;
 }
 
 
