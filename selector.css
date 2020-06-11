@@ -17,10 +17,17 @@ font-family: 'Noto Serif', serif;}
 
 
 
+
+
+
+
+
+
+
 .bienvenidaequipo {
   padding-bottom: 3rem;
   text-align: center;
-  background-color: #162447;
+  background-color: #303960;
   color: white;
 font-family: 'Noto Serif', serif;
 padding-top: 3rem;
@@ -44,7 +51,7 @@ font-family: 'Noto Serif', serif;
 
 }
 .img-text{
-  padding-top:1rem;
+
   text-align:center;
   margin-bottom: 8rem;
 }
@@ -59,22 +66,24 @@ font-family: 'Shadows Into Light', cursive;
   border-radius: 10%;
   border: 1.5px solid #000;
 	background: #000;
-  width: 50%;
+  height: 400px;
 
-
-  display: block;
-margin-left: auto;
-margin-right: auto;
-height: auto;
-background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
 
 
+.carrusel{
+  text-align: center;
+    background-color: #512b58;
+}
 
 
+
+.car-img{
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
 
 .cuerpo{
 
@@ -83,6 +92,14 @@ margin-left: 0;
 padding-left: 0;
 padding-right:  0;
 margin-bottom: 0rem;
+}
+
+
+.tit-cab{
+padding-top: 3rem;
+font-family: sans-serif;
+text-align: center;
+font-weight: bold;
 }
 
 body{
@@ -145,9 +162,12 @@ font-size: 18px;
   font-size: 12.36px;
 }
 
+
+
 .descripcion {
   font-size: 14.3px;
   text-align: center;
+
 }
 
 .header {
@@ -215,23 +235,62 @@ padding-top: 2rem;
 /* Title Image */
 
 .title-image {
+  padding-left:   35%;
   width: 60%;
   transform: rotate(5deg);
-  position: absolute;
-  right: 30%;
+
+  right: 80%;
+  padding: 0.7px;
+  border: 0.8px solid Black;
+  border-radius:15px;
+
 }
-@media (max-width: 1020px) {
+
+
+
+@media (max-width: 1600px) {
+
+  .title-image {
+    margin-top:5rem;
+    width: 70%;
+    position: static;
+
+  }
+}
+
+@media (max-width: 1400px) {
+
+  .title-image {
+  margin-top:5rem;
+    width: 100%;
+    position: static;
+
+  }
+}
+@media (max-width: 1000px) {
 
   #title {
     text-align: center;
   }
 
+
+
+
   .title-image {
-    padding-top:4rem;
-    width: 100%;
+    margin-top:4rem;
+    width: 60%;
     position: static;
-    transform: rotate(0);
+
+
   }
+}
+
+
+@media(max-width: 1000px){
+.youtube{
+  margin-top: 4rem;
+}
+
 }
 
 
