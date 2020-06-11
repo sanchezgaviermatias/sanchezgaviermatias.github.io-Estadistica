@@ -121,9 +121,12 @@ margin-bottom:1.4rem;
 
 }
 
+.topico2{
+  color:#ad6989;
+}
 
 .topico{
-color: #c70039;
+color: #303960;
 
 }
 
@@ -147,7 +150,7 @@ font-size: 18px;
 }
 
 .pema {
-    font-size: 16px;
+    font-size: 20px;
   padding-top: 30px;
   color: #142850;
 }
@@ -165,7 +168,7 @@ font-size: 18px;
 
 
 .descripcion {
-  font-size: 14.3px;
+  font-size: 17.4px;
   text-align: center;
 
 }
