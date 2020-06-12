@@ -24,8 +24,19 @@ font-family: 'Noto Serif', serif;}
 }
 
 
+
+
 #header{
 font-size: 50px;
+}
+
+
+@media(max-width:550px) {
+.bot{
+  margin-top:2rem;
+}
+
+
 }
 
 
@@ -35,6 +46,22 @@ font-size: 50px;
   }
 
 }
+
+
+
+#header{
+font-size: 40px;
+}
+
+
+@media(max-width:550px) {
+  #header{
+  font-size: 20px;
+  }
+
+}
+
+
 
 
 
