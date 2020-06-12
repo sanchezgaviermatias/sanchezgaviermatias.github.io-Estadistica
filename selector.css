@@ -49,14 +49,23 @@ font-size: 50px;
 
 
 
-#header{
+@media(max-width:550px) {
+.pa{
+  font-size: 9px;
+}
+
+}
+
+
+
+#header2{
 font-size: 40px;
 }
 
 
 @media(max-width:550px) {
-  #header{
-  font-size: 20px;
+  #header2{
+  font-size: 30px;
   }
 
 }
@@ -337,6 +346,14 @@ padding-top: 2rem;
 
 }
 
+
+
+@media(max-width: 400px){
+.youtube{
+  width: 104%;
+}
+
+}
 
 @media (max-width: 1028px) {
 
