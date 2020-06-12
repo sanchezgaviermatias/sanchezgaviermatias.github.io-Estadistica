@@ -49,9 +49,9 @@ font-size: 50px;
 
 
 
-@media(max-width:550px) {
+@media(max-width:425px) {
 .pa{
-  font-size: 9px;
+  font-size: 12px;
 }
 
 }
@@ -218,7 +218,7 @@ font-size: 18px;
 
 
 .descripcion {
-  font-size: 17.4px;
+  font-size: 15.4px;
   text-align: center;
 
 }
