@@ -2,8 +2,8 @@
   font-size: 17px;
   text-align: center;
   padding: 5rem;
-  background-color: #fee2b3;
-  color: black;
+  background-color: #112d4e;
+  color: white;
 font-family: 'Noto Serif', serif;}
 
 
@@ -42,7 +42,7 @@ font-size: 50px;
 .bienvenidaequipo {
   padding-bottom: 3rem;
   text-align: center;
-  background-color: #562349;
+  background-color: #f9f7f7;
   color: white;
 font-family: 'Noto Serif', serif;
 padding-top: 3rem;
@@ -90,7 +90,8 @@ font-family: 'Shadows Into Light', cursive;
 
 .carrusel{
   text-align: center;
-    background-color: #ad6989;
+  color: black;
+    background-color: #dbe2ef;
 }
 
 
@@ -150,7 +151,7 @@ color: #303960;
   color: white;
 font-size: 18px;
     padding-top: 1rem;
-  background-color:#562349;
+  background-color:#3f72af;
   padding-bottom: 1rem;
 }
 
