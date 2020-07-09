@@ -1,0 +1,1 @@
+const katex = require('katex');

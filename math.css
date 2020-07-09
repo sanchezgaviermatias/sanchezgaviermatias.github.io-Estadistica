@@ -1,0 +1,47 @@
+
+body{
+font-family: 'Lato', sans-serif;
+font-size: 18px;
+}
+
+.titulo{
+  text-align: left;
+  margin-top:3rem;
+}
+
+.texto{
+    text-align: left;
+}
+
+.img{
+  height: 500px;
+  display: block;
+   margin-left: auto;
+margin-right: auto;
+}
+
+.math{
+font-size: 13px;
+}
+
+
+.imagen{
+  display: block;
+   margin-left: auto;
+margin-right: auto;
+height: auto;
+}
+
+
+.punto{
+      color: #030F86;
+font-weight: bold;
+
+}
+
+
+.ejemplo{
+      color: #004E00;;
+font-weight: bold;
+
+}
