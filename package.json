@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/sanchezgaviermatias/EstadisticaI-PaginaWeb#readme",
   "dependencies": {
-    "katex": "^0.11.1"
+    "katex": "^0.16.10"
   }
 }
